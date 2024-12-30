@@ -7,8 +7,7 @@ export default function Navbar() {
   const [visible, setVisible] = useState(false);
 
   return (
-    <div className="flex items-center justify-between py-5 font-medium">
-      {/* Code also be encapsulated within a Link tag */}
+    <div className="flex items-center justify-between font-medium px-4 sm:px-6 lg:px-8">
       <img
         src="https://download.logo.wine/logo/Zara_(retailer)/Zara_(retailer)-Logo.wine.png"
         alt="logo"
