@@ -8,8 +8,9 @@ export default function Navbar() {
 
   return (
     <div className="flex items-center justify-between py-5 font-medium">
+      {/* Code also be encapsulated within a Link tag */}
       <img
-        src={assets.logo}
+        src="https://download.logo.wine/logo/Zara_(retailer)/Zara_(retailer)-Logo.wine.png"
         alt="logo"
         className="w-36"
         onClick={() => navigate("/")}
@@ -86,28 +87,28 @@ export default function Navbar() {
           <NavLink
             to="/"
             onClick={() => setVisible(false)}
-            className="py-2 pl-6 border hover:text-black"
+            className="py-2 pl-6 border"
           >
             Home
           </NavLink>
           <NavLink
             to="/collection"
             onClick={() => setVisible(false)}
-            className="py-2 pl-6 border hover:text-black"
+            className="py-2 pl-6 border"
           >
             Collection
           </NavLink>
           <NavLink
             to="/about"
             onClick={() => setVisible(false)}
-            className="py-2 pl-6 border hover:text-black"
+            className="py-2 pl-6 border"
           >
             About
           </NavLink>
           <NavLink
             to="/contact"
             onClick={() => setVisible(false)}
-            className="py-2 pl-6 border hover:text-black"
+            className="py-2 pl-6 border"
           >
             Contact
           </NavLink>
