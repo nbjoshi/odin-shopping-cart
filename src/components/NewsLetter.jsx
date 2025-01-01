@@ -5,9 +5,7 @@ export default function NewsLetter() {
 
   return (
     <div className="text-center mt-10">
-      <p className="text-2xl font-medium text-gray-800">
-        Subscribe Now & Get 20% Off
-      </p>
+      <p className="text-2xl font-medium black">Subscribe Now & Get 20% Off</p>
       <p className="mt-3 text-gray-400">
         Unlock exclusive deals and enjoy early access to our latest products.
         Don't miss out—join our community today and start saving!
@@ -19,7 +17,7 @@ export default function NewsLetter() {
         <input
           type="email"
           placeholder="Enter your email"
-          className="w-full sm:flex-1 outline-none border-b-2 border-gray-300 py-2"
+          className="w-full text-gray-600 sm:flex-1 outline-none border-b-2 border-gray-300 py-2"
           required
         ></input>
         <button

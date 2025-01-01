@@ -49,7 +49,7 @@ export default function PromoBanner() {
   };
 
   return (
-    <div className="flex justify-center bg-gray-600 h-16 relative">
+    <div className="flex justify-center bg-black h-16 relative">
       <div className="flex items-center w-2/3">
         {!isSmallScreen && (
           <button
